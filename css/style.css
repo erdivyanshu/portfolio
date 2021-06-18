@@ -23,6 +23,7 @@
 /* body universal and it's background */
 
 body{
+    background-image: url(../img/body.jpg);
     margin: 0px;
     padding: 0;
     width: 100%;
@@ -42,6 +43,7 @@ body{
 
 /* profile pic design */
 .port{
+    background-image: url(../img/profile.jpg);
     position: relative;
     align-items: center;
     display: flex;
