@@ -23,7 +23,6 @@
 /* body universal and it's background */
 
 body{
-    
     margin: 0px;
     padding: 0;
     width: 100%;
@@ -43,7 +42,6 @@ body{
 
 /* profile pic design */
 .port{
-    
     position: relative;
     align-items: center;
     display: flex;
@@ -162,20 +160,20 @@ h1,span,p{
 
 
 .about{
-    background-image: url(../img/about.jpg);
+    background-image: url(../img/45.jpg);
     padding: 5%;
 
 }
-.about span::after
+/* .about span::after
 {
     content: "";
     position: absolute;
-    width: 10vw;
+    width: fit-content;
     border-bottom:5px solid #000;
     left: 45%;
     bottom: 60%;
    
-}
+} */
 .about .text{
     display: inline-block;
     color:#000;
@@ -190,6 +188,11 @@ h1,span,p{
 .about span{
     font-family: StintUltraCondensed-Regular;
     font-size: 3em;
+    
+}
+.about #abt{
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 
@@ -218,18 +221,13 @@ h1,span,p{
 /* schooling section design */
 
 .schooling{
-    background-image: url(../img/schooling.jpg);
+    background-image: url(../img/47.jpg);
     padding: 5%;
     
 }
-.schooling span::after
-{
-    content: "";
-    position: absolute;
-    width: 14vw;
-    border-bottom:5px solid #000;
-    left: 43%;
-    bottom: 68%;
+.schooling span{
+text-decoration: underline;
+text-underline-position: under;
 }
 .schooling h3{
     font-weight: 800;
@@ -256,7 +254,7 @@ h1,span,p{
 
 .experience{
     position: relative;
-    background-image: url(../img/experience.jpg);
+    background-image: url(../img/46.jpg);
     text-align: center;
     overflow: auto;
     padding: 5%; 
@@ -269,8 +267,10 @@ h1,span,p{
     font-family: StintUltraCondensed-Regular;
     font-size: 3em;
     text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
 }
-.exp::after
+/* .exp::after
 {
     content: "";
     position: absolute;
@@ -278,7 +278,7 @@ h1,span,p{
     border-bottom:5px solid #000;
     left: 42%;
     bottom: 78%;
-}
+} */
 .same-section{
     margin-top: 3%;
     padding: 0px 50px 0px 50px;
@@ -306,17 +306,13 @@ h1,span,p{
 /*resume section design */
 
 .resume{
-    background-image: url(../img/resume.jpg);
+    background-image: url(../img/body5.jpg);
     padding: 5%;
 }
-.resume span::after
+.resume span
 {
-    content: "";
-    position: absolute;
-    width: 12vw;
-    border-bottom:5px solid #000;
-    left: 44%;
-    bottom: 59%;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 .resume p{
     padding: 2%;
@@ -337,30 +333,38 @@ h1,span,p{
 /* contact section design */
 
 .contact{
-    background-image: url(../img/contact.jpg);
+    background-image: url(../img/49.jpg);
     padding: 5%;
 }
-.contact span::after
+/* .contact span::after
 {
     content: "";
     position: absolute;
     width: 17vw;
     border-bottom:5px solid khaki;
     left: 42%;
-    bottom: 78%;
-}
+    bottom: 80%;
+} */
 .contact span{
     color: khaki;
     margin-left: 10px;
+    text-decoration: underline;
+    text-underline-position: under;
 }
 .contact p{
     padding: 2%;
     font-family: Lobster-Regular;
     font-weight: 500;
 }
-
-                /* contact us form design */
-
+form:hover{
+    border:1px solid rgb(116, 114, 111);
+    box-shadow: 0 0 1em rgb(116, 114, 111),0 0 2em rgb(116, 114, 111),0 0 4em rgb(116, 114, 111);
+    transition: 0.35s;
+    transition: background-color .22s ease, color .22s ease;
+    margin:1%;
+    margin-bottom: 0;
+    /* cursor: pointer; */
+}
 form{
     border: 2px solid black;
 }
@@ -408,16 +412,6 @@ form{
     box-shadow: inset 0 0 30px #00f;
     
 }
-form:hover{
-    border:1px solid rgb(116, 114, 111);
-    box-shadow: 0 0 1em rgb(116, 114, 111),0 0 2em rgb(116, 114, 111),0 0 4em rgb(116, 114, 111);
-    transition: 0.35s;
-    transition: background-color .22s ease, color .22s ease;
-    margin:1%;
-    margin-bottom: 0;
-    /* cursor: pointer; */
-}
-
 
 /* contact us button special design*/
 
@@ -428,7 +422,7 @@ form:hover{
     display: flex;
     justify-content: space-between;
     /* background: rgb(134, 25, 177); */
-    background-image: url(../img/contactus.jpg);
+    background-image: url(../img/4.jpg);
     z-index: 10;
 }
 
@@ -526,7 +520,7 @@ section{
     position: absolute;
     width: 100%;
     /* background-image: linear-gradient(to bottom,rgb(226, 90, 113),rgb(91, 248, 248)); */
-    background-image: url(../img/contactus.jpg);
+    background-image: url(../img/4.jpg);
 }
 section ul{
     display: flex;
@@ -541,7 +535,7 @@ section ul li{
 section:before{
     backdrop-filter: blur(10px);
     /* background-color: rgba(255,255,255,0.1); */
-    background-image: url(../img/contactus.jpg);
+    background-image: url(../img/4.jpg);
     border-top: 1px solid rgba(255,255,255,0.5);
     bottom: 0;
     content:'[Social-Media]';
@@ -564,7 +558,7 @@ section .color{
 }
 section .color:nth-child(1){
     /* background-color:rgb(153, 34, 94); */
-    background-image: url(../img/contactus.jpg);
+    background-image: url(../img/4.jpg);
     height: 600px;
     top:-350px;
     width: 600px;
@@ -644,89 +638,11 @@ section ul li a:active{
     z-index: 11;
 }
 
+
+
 /* responsiveness */
-@media only screen and (max-width:1153px) {
-    .about span::after
-        {
-            width: 12vw;
-            left: 44%;
-            bottom: 65%;
-   
-        }
-        .resume span::after
-        {
-            width: 14vw;
-            left: 43%;
-            bottom: 57%;
-   
-        }
-}
-@media only screen and (max-width:954px) {
-    .resume span::after
-        {
-            width: 16vw;
-            left: 42%;
-   
-        }
-}
-@media only screen and (max-width:957px) {
-    .about span::after
-        {
-            
-            width: 16vw;
-            
-            left: 43%;
-            bottom: 68%;
-   
-        }
-    .resume span::after
-        {
-            
-            width: 20vw;
-            
-            left: 40%;
-   
-        }
-        .contact span::after
-        {
-            
-            width: 28vw;
-            
-            left: 37%;
-            bottom: 83%;
-        }
-        .contact span::after
-        {
-            
-            width: 28vw;
-            
-            left: 37%;
-            bottom: 83%;
-        }
-        .experience span::after
-        {
-            
-            width: 28vw;
-            left: 36%;
-            bottom: 89%;
-        }
-        .schooling span::after
-        {
-            
-            width: 25vw;
-            left: 37%;
-            bottom: 75%;
-        }
-}
-@media only screen and (max-width:980px) {
-    .experience span::after
-        {
-            width: 16vw;
-            left: 42%;
-            bottom: 85%;
-        }
-}
-@media only screen and (max-width:700px) {
+
+@media only screen and (max-width:1150px) {
     .experience{
         display: flex;
         flex-direction: column;
@@ -744,14 +660,37 @@ section ul li a:active{
         text-align: left;
         margin-left: 10%;
     }
-    .experience span::after
-        {
-            width: 28vw;
-            left: 41%;
-            bottom: 91%;
-        }
+
 }
-@media only screen and (max-width:552px) {
+@media only screen and (max-width:1150px){
+    .same-section{
+        float: left;
+        overflow: hidden;
+    }
+    .same-section h2{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .same-section p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+    }
+}
+/*social media icon responsive*/
+@media only screen and (max-width:550px){
+    section{
+       float: left;
+       overflow: hidden;
+    }
+    section ul li{
+        margin: 5px;
+    }
+}
+
+
+
+/* @media only screen and (max-width:552px) {
     .about span::after
     {
         width: 18vw;
@@ -770,7 +709,8 @@ section ul li a:active{
         left: 39%;
         bottom: 93%;
     }
-}
+} 
+
 @media only screen and (max-width:419px) {
     .about span::after
     {
@@ -794,15 +734,5 @@ section ul li a:active{
         width: 36vw;
         left: 31%;
         bottom: 66%;
-    }
-}
-
-@media only screen and (max-width:550px){
-    section{
-       float: left;
-       overflow: hidden;
-    }
-    section ul li{
-        margin: 5px;
     }
 }
