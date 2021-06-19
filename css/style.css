@@ -317,6 +317,7 @@ text-underline-position: under;
 .resume p{
     padding: 2%;
     font-family: Lobster-Regular;
+    font-style:normal;
     font-weight: 500;
 }
 .resume:hover{
