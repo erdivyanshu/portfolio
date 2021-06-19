@@ -645,3 +645,164 @@ section ul li a:active{
 }
 
 /* responsiveness */
+@media only screen and (max-width:1153px) {
+    .about span::after
+        {
+            width: 12vw;
+            left: 44%;
+            bottom: 65%;
+   
+        }
+        .resume span::after
+        {
+            width: 14vw;
+            left: 43%;
+            bottom: 57%;
+   
+        }
+}
+@media only screen and (max-width:954px) {
+    .resume span::after
+        {
+            width: 16vw;
+            left: 42%;
+   
+        }
+}
+@media only screen and (max-width:957px) {
+    .about span::after
+        {
+            
+            width: 16vw;
+            
+            left: 43%;
+            bottom: 68%;
+   
+        }
+    .resume span::after
+        {
+            
+            width: 20vw;
+            
+            left: 40%;
+   
+        }
+        .contact span::after
+        {
+            
+            width: 28vw;
+            
+            left: 37%;
+            bottom: 83%;
+        }
+        .contact span::after
+        {
+            
+            width: 28vw;
+            
+            left: 37%;
+            bottom: 83%;
+        }
+        .experience span::after
+        {
+            
+            width: 28vw;
+            left: 36%;
+            bottom: 89%;
+        }
+        .schooling span::after
+        {
+            
+            width: 25vw;
+            left: 37%;
+            bottom: 75%;
+        }
+}
+@media only screen and (max-width:980px) {
+    .experience span::after
+        {
+            width: 16vw;
+            left: 42%;
+            bottom: 85%;
+        }
+}
+@media only screen and (max-width:700px) {
+    .experience{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .same-section{
+        margin-top: 3%;
+        padding: 0px 50px 0px 50px;
+        box-sizing:content-box;
+        width: 50%;
+        float:none;
+        /* border: 2px solid gray; */
+    }
+    .exp{
+        text-align: left;
+        margin-left: 10%;
+    }
+    .experience span::after
+        {
+            width: 28vw;
+            left: 41%;
+            bottom: 91%;
+        }
+}
+@media only screen and (max-width:552px) {
+    .about span::after
+    {
+        width: 18vw;
+        left: 42%;
+        bottom: 72%;
+
+    }
+    .schooling span::after
+    {
+        bottom: 79%;
+    }
+    .experience span::after
+    {
+        width: 34vw;
+        
+        left: 39%;
+        bottom: 93%;
+    }
+}
+@media only screen and (max-width:419px) {
+    .about span::after
+    {
+        width: 18vw;
+        left: 42%;
+        bottom: 75%;
+
+    }
+    .schooling span::after
+    {
+        bottom: 85%;
+    }
+    .experience span::after
+    {
+        width: 38vw;
+        left: 36%;
+        bottom: 95%;
+    }
+    .resume span::after
+    {
+        width: 36vw;
+        left: 31%;
+        bottom: 66%;
+    }
+}
+
+@media only screen and (max-width:550px){
+    section{
+       float: left;
+       overflow: hidden;
+    }
+    section ul li{
+        margin: 5px;
+    }
+}
