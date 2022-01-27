@@ -220,7 +220,7 @@ h1,span,p{
 /* schooling section design */
 
 .schooling{
-    background-image: url(../img/47.jpg);
+    background-image: url(../img/47.png);
     padding: 5%;
     
 }
@@ -253,7 +253,7 @@ text-underline-position: under;
 
 .experience{
     position: relative;
-    background-image: url(../img/46.jpg);
+    background-image: url(../img/46.png);
     text-align: center;
     overflow: auto;
     padding: 5%; 
@@ -305,7 +305,7 @@ text-underline-position: under;
 /*resume section design */
 
 .resume{
-    background-image: url(../img/body5.jpg);
+    background-image: url(../img/resume.png);
     padding: 5%;
 }
 .resume span
